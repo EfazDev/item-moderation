@@ -11,10 +11,29 @@
         id="cloudflare_script"></script>
     <script src="main_counter.js"></script>
     <script>
-        function open() {
-            window.location.href ="https://discord.gg/CVjuEKU4Dy"
+        function openNewTab() {
+            window.location.href = "https://discord.gg/CVjuEKU4Dy"
         }
     </script>
+    <style>
+        #link {
+            border: 1px solid white;
+            border-collapse: collapse;
+            text-align: center;
+            margin: 0 auto;
+            border-radius: 8px;
+            background-color: #4d16ff;
+            color: rgb(255, 255, 255);
+            vertical-align: middle;
+            justify-content: center;
+            font-family: arialrounded;
+            margin-right: auto;
+        }
+        a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+    </style>
 </head>
 
 <body>
@@ -23,23 +42,23 @@
         <h2 id="title1">Item Moderation Scanner</h2>
         <h1 id="main_message">Please wait while the server is loading approved data!</h1>
         <p>
-            Item Moderation Scanner is a Discord bot designed to notify users if a Roblox avatar or UGC item has been successfully approved or declined by Roblox Moderation!
+            Item Moderation Scanner is a Discord bot designed to notify users if a Roblox bundle or UGC item has been successfully approved or declined by Roblox Moderation!
         </p>
         <h3>
             Features:
         </h3>
         <ul class="features">
-            <li>Scan items and get pinged when approved (Specialty)</li>
+            <li>Scan items including bundles and get pinged when approved! (Specialty)</li>
             <li>Timed Item Approval Leaderboards (Shortest and Longest)</li>
-            <li>Check if Item is Approved (Command)</li>
+            <li>Check if Item or Bundle is Approved (Command)</li>
             <li>Check your Active Items on the list! (Command)</li>
             <li>Item Scan Stats (by Items in the Scanner only)</li>
             <li>Lock Accounts to you (Application required)</li>
             <li>Special Scanners and Registers (Application required)</li>
         </ul>
-        <a href="https://discord.gg/CVjuEKU4Dy">
-            Join the Discord Server!
-    </a>
+        <p id="link" style="height: 250%; width: 75%; vertical-align: middle;" onclick="openNewTab()">
+             <a style="vertical-align: middle; width: 200%;" href="https://discord.gg/CVjuEKU4Dy"><img src="https://cdn.efaz.dev/cdn/png/discord-logo.png" style="vertical-align: middle" height="100%" width="18.5px"> Join the Discord Server!</a>
+        </p>
     </div>
 </body>
 
